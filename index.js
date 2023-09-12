@@ -1,6 +1,6 @@
 const audio = new Audio("public/gnome_woo.mp3");
 const timeout_min = 25 * 1000;
-const timeout_max = 5 * 60 * 1000;
+const timeout_max = 10 * 60 * 1000;
 
 const storage_key = "get_gnomed";
 const storage = storageLoad();
